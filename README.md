@@ -41,6 +41,14 @@ let view = RoadOSHazardView(hazard: RoadOSHazard("SIG-002"))
 
 > **Hazard identifiers.** Look hazards up by **element ID** (`"RDM-003"`) or by an unambiguous slug (`"large_pothole"`). `"pothole"` is a *pictogram key* that 9 catalogue entries share. Looking it up throws `RoadOSError.notFound` with a message that lists the candidate IDs. Some slugs, such as `hairpin_bend` (`RSG-015` and `GEO-004`), are also shared by more than one entry.
 
+## Screenshots
+
+The [sample app](Examples/RoadOSDemo) running in the iOS Simulator. Every pixel inside the app's canvases and icons is rendered by RoadOS Graphics Core.
+
+| Custom graphics (iPhone 18 Pro, iOS 27.2) | SVG rendering | Hazard catalogue | Composer: SwiftUI and UIKit |
+|---|---|---|---|
+| <img src="docs/screenshots/ios-iphone18pro.png" alt="Custom graphics" width="200"> | <img src="docs/screenshots/ios-svg.png" alt="SVG rendering" width="200"> | <img src="docs/screenshots/ios-hazards.png" alt="Hazard catalogue" width="200"> | <img src="docs/screenshots/ios-composer.png" alt="Hazard composer" width="200"> |
+
 ## Status
 
 **Version 0.1.0. Not yet published.** Nothing has been released to a package registry, and the prebuilt binary is not committed. Use the package from a local checkout, as described below.
