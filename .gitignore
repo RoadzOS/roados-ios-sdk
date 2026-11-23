@@ -1,0 +1,12 @@
+# Xcode / SwiftPM
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Built native binaries (produced by scripts/build_xcframework.sh)
+/Binaries/
+/third_party/
+
+.DS_Store
