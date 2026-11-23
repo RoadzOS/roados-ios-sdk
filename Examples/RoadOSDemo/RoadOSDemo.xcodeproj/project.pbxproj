@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C20F1DA44A4BBABDBD7256 /* ComposerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEDF80B53B2C4A84C1DDFB /* ComposerDemo.swift */; };
+		591F01E5EF76DA8A76AB680C /* RoadOSGraphics in Frameworks */ = {isa = PBXBuildFile; productRef = C60CDE2DE4F96A26E00C4445 /* RoadOSGraphics */; };
+		5DF660CB1110AC2E0181CF4A /* RoadOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FF0B911F6254E3822AB48 /* RoadOSDemoApp.swift */; };
+		6C5069F6957935CACE1C7612 /* SVGDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D9F26E21683B970F483F /* SVGDemo.swift */; };
+		C4CF02470ABCD372472FC71B /* GraphicsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFEDC61AAF709012073D5 /* GraphicsDemo.swift */; };
+		F47BBC70B4B5FFA61B24253A /* CatalogueDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD170A2104626EF2609902D /* CatalogueDemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B1D9F26E21683B970F483F /* SVGDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGDemo.swift; sourceTree = "<group>"; };
+		18CEDF80B53B2C4A84C1DDFB /* ComposerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDemo.swift; sourceTree = "<group>"; };
+		1E8F59164FDBC940BC27D1B4 /* RoadOSDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RoadOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2CFEDC61AAF709012073D5 /* GraphicsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsDemo.swift; sourceTree = "<group>"; };
+		7CD170A2104626EF2609902D /* CatalogueDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueDemo.swift; sourceTree = "<group>"; };
+		85FFD67E0AAEEB6A2150F915 /* roados-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "roados-ios-sdk"; path = ../..; sourceTree = SOURCE_ROOT; };
+		BB8FF0B911F6254E3822AB48 /* RoadOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadOSDemoApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6FC63E91B313460FF733FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591F01E5EF76DA8A76AB680C /* RoadOSGraphics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73265E86327513A1553641A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F59164FDBC940BC27D1B4 /* RoadOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B18FAA9A92D006B1661710 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				85FFD67E0AAEEB6A2150F915 /* roados-ios-sdk */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B98D48191F51787D04DA2E2D = {
+			isa = PBXGroup;
+			children = (
+				A9B18FAA9A92D006B1661710 /* Packages */,
+				EA176F37378E03F18EC3C7EA /* RoadOSDemo */,
+				73265E86327513A1553641A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA176F37378E03F18EC3C7EA /* RoadOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CD170A2104626EF2609902D /* CatalogueDemo.swift */,
+				18CEDF80B53B2C4A84C1DDFB /* ComposerDemo.swift */,
+				1F2CFEDC61AAF709012073D5 /* GraphicsDemo.swift */,
+				BB8FF0B911F6254E3822AB48 /* RoadOSDemoApp.swift */,
+				18B1D9F26E21683B970F483F /* SVGDemo.swift */,
+			);
+			path = RoadOSDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052981BFA3E84B0608693784 /* RoadOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E840F0B93771C00C4AD17CC /* Build configuration list for PBXNativeTarget "RoadOSDemo" */;
+			buildPhases = (
+				D54341AD570ACDE45241AFDC /* Sources */,
+				1D6FC63E91B313460FF733FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadOSDemo;
+			packageProductDependencies = (
+				C60CDE2DE4F96A26E00C4445 /* RoadOSGraphics */,
+			);
+			productName = RoadOSDemo;
+			productReference = 1E8F59164FDBC940BC27D1B4 /* RoadOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90EA5BDE7D0CDC4C38FE62A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					052981BFA3E84B0608693784 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2117F4A3453A1EE36DE88D00 /* Build configuration list for PBXProject "RoadOSDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B98D48191F51787D04DA2E2D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				632FA045BAB286717F6CD78D /* XCLocalSwiftPackageReference "../.." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73265E86327513A1553641A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052981BFA3E84B0608693784 /* RoadOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54341AD570ACDE45241AFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47BBC70B4B5FFA61B24253A /* CatalogueDemo.swift in Sources */,
+				31C20F1DA44A4BBABDBD7256 /* ComposerDemo.swift in Sources */,
+				C4CF02470ABCD372472FC71B /* GraphicsDemo.swift in Sources */,
+				5DF660CB1110AC2E0181CF4A /* RoadOSDemoApp.swift in Sources */,
+				6C5069F6957935CACE1C7612 /* SVGDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B91D189EACAA279645ACB591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoadOS;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadzos.sample.RoadOSDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C909FEFA02A36F656A0292F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoadOS;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadzos.sample.RoadOSDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A5398707E646AC0624E68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF8AE39CC5DF6B6C88955DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2117F4A3453A1EE36DE88D00 /* Build configuration list for PBXProject "RoadOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A5398707E646AC0624E68C /* Debug */,
+				FF8AE39CC5DF6B6C88955DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E840F0B93771C00C4AD17CC /* Build configuration list for PBXNativeTarget "RoadOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C909FEFA02A36F656A0292F7 /* Debug */,
+				B91D189EACAA279645ACB591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		632FA045BAB286717F6CD78D /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C60CDE2DE4F96A26E00C4445 /* RoadOSGraphics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RoadOSGraphics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C90EA5BDE7D0CDC4C38FE62A /* Project object */;
+}

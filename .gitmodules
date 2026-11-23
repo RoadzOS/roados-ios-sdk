@@ -1,0 +1,3 @@
+[submodule "external/roados-graphics-core"]
+	path = external/roados-graphics-core
+	url = https://github.com/RoadzOS/roados-graphics-core.git
